@@ -64,5 +64,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MicroByre is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and
+co-founder Sarah Richardson. It built an automated characterization and genetic-tool
+pipeline to "domesticate" wild-type bacteria — making naturally occurring, never-before-
+engineered microbes tractable so they could ferment unrefined waste biomass into commodity
+chemicals, enzymes, food ingredients and probiotics. It raised roughly $20.5M, including
+backing from Prime Coalition's Prime Impact Fund.
+
+**MicroByre is out of business.** Prime Coalition lists the company as "no longer active",
+and C&EN reported the shutdown. It was a wet-lab platform company, not a software vendor:
+no developer program, no public API, and no machine-readable contract was ever published,
+and as of 2026-08-25 the company's own domain no longer resolves to a web server —
+`microbyre.com` publishes no A record, and `www.microbyre.com` is a dangling CNAME to a
+CloudFront distribution that has been deleted. This profile therefore carries probe
+records only.
+
+- Company page (still reachable): https://www.linkedin.com/company/microbyre
+- Third-party status: https://www.primecoalition.org/investee-library/microbyre
+
+> **Note on name collisions.** The GitHub organization at `github.com/MicroByre` is *not*
+> this company — it belongs to "I Demur" (idemur.org). The
+> `https://www.nasdaqprivatemarket.com/` URL previously listed on this profile was the
+> harvest source, not MicroByre's website; it has been removed.

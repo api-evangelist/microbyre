@@ -1,0 +1,53 @@
+generated: '2026-08-25'
+method: probed
+source: dig @8.8.8.8 + TLS connect attempts against microbyre.com, 2026-08-25
+note: >-
+  MicroByre is out of business and its web surface is gone, but the registration is
+  still held and still carries live mail DNS. Recorded because the DNS answers are
+  real observations; no DomainSecurity pointer is wired into apis.yml, because there
+  is no served host for that pointer to assert.
+hosts:
+  - host: microbyre.com
+    https: false
+    resolves: false
+    tls_version: null
+    hsts: null
+    error: >-
+      NOERROR with no A/AAAA answer — the apex publishes no address record, so no
+      TLS connection is possible.
+  - host: www.microbyre.com
+    https: false
+    resolves: false
+    cname: dw7qr6qh3v5bt.cloudfront.net
+    tls_version: null
+    hsts: null
+    error: >-
+      Dangling CNAME — the CloudFront distribution dw7qr6qh3v5bt.cloudfront.net
+      returns NOERROR with no answer, i.e. the distribution has been deleted or
+      disabled.
+dns:
+  registrable_domain: microbyre.com
+  nameservers:
+    - dns1.registrar-servers.com
+    - dns2.registrar-servers.com
+  dnssec: false
+  dnssec_evidence: no DNSKEY records returned
+  caa: []
+  caa_present: false
+  spf: 'v=spf1 include:_spf.protonmail.ch ~all'
+  spf_present: true
+  dmarc: 'v=DMARC1; p=quarantine'
+  dmarc_present: true
+  dmarc_policy: quarantine
+  mx:
+    - 10 mail.protonmail.ch
+    - 20 mailsec.protonmail.ch
+  txt_other:
+    - protonmail-verification=946871cde9fd1855f8033a5733f3531f2a894966
+findings:
+  - The company website is unreachable; DNS resolves no address for the apex or www.
+  - Mail is still delivered (Proton Mail MX, SPF and DMARC quarantine present).
+  - No DNSSEC and no CAA records are published.
+  - >-
+    www.microbyre.com is a dangling CNAME at a deleted CloudFront distribution — a
+    subdomain-takeover shape worth flagging to whoever still holds the registration.
