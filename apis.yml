@@ -11,6 +11,7 @@ description: >-
   as "no longer active" and C&EN reported the shutdown. MicroByre was a wet-lab platform
   company, not a software vendor: it published no developer program, no API, and no
   machine-readable contract, and its own domain no longer resolves to a web server.
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/microbyre/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -50,6 +51,7 @@ tags:
 - Bioengineering
 - Climate Tech
 - Chemicals
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
