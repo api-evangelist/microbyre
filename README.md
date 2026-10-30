@@ -64,25 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and
-co-founder Sarah Richardson. It built an automated characterization and genetic-tool
-pipeline to "domesticate" wild-type bacteria — making naturally occurring, never-before-
-engineered microbes tractable so they could ferment unrefined waste biomass into commodity
-chemicals, enzymes, food ingredients and probiotics. It raised roughly $20.5M, including
-backing from Prime Coalition's Prime Impact Fund.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**MicroByre is out of business.** Prime Coalition lists the company as "no longer active",
-and C&EN reported the shutdown. It was a wet-lab platform company, not a software vendor:
-no developer program, no public API, and no machine-readable contract was ever published,
-and as of 2026-08-25 the company's own domain no longer resolves to a web server —
-`microbyre.com` publishes no A record, and `www.microbyre.com` is a dangling CNAME to a
-CloudFront distribution that has been deleted. This profile therefore carries probe
-records only.
+MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and co-founder Sarah Richardson to "domesticate" wild-type bacteria — building an automated characterization and genetic-tool pipeline that made naturally occurring, never-before-engineered microbes tractable so they could ferment unrefined waste biomass into commodity chemicals, enzymes, food ingredients and probiotics at costs petrochemical routes could not match. It raised roughly $20.5M, including backing from Prime Coalition's Prime Impact Fund, and went out of business; Prime Coalition lists it as "no longer active" and C&EN reported the shutdown. MicroByre was a wet-lab platform company, not a software vendor: it published no developer program, no API, and no machine-readable contract, and its own domain no longer resolves to a web server.
 
-- Company page (still reachable): https://www.linkedin.com/company/microbyre
-- Third-party status: https://www.primecoalition.org/investee-library/microbyre
+**Areas:** Company · Biotechnology · Synthetic Biology · Industrial Biotechnology · Bioengineering · Climate Tech · Chemicals · Defunct
 
-> **Note on name collisions.** The GitHub organization at `github.com/MicroByre` is *not*
-> this company — it belongs to "I Demur" (idemur.org). The
-> `https://www.nasdaqprivatemarket.com/` URL previously listed on this profile was the
-> harvest source, not MicroByre's website; it has been removed.
+## MicroByre on APIs.io (historical record)
+
+Everything profiled for MicroByre is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microbyre/](https://apis.io/providers/microbyre/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Microbyre Domain Security](https://apis.io/security/microbyre/microbyre-domain-security/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MicroByre: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microbyre/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
